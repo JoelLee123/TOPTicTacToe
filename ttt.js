@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
         return { name, marker };
     }
 
-    const playerOne = createPlayer("Tim", "X");
-    const playerTwo = createPlayer("Jenn", "O");
+    const playerOne = createPlayer("Player One", "X");
+    const playerTwo = createPlayer("Player Two", "O");
     let currentPlayer = playerOne;
     let availableSpaces = 9;
 
